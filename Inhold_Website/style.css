@@ -1,34 +1,41 @@
-h1, h2 {
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    color: black;
-}
-
-
 h1 {
-    font-size: 40pt;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50pt;
     text-align: center;
     color: black;
 }
 
 h2 {
+    font-family: 'Libre Baskerville', serif;
     font-size: 20pt;
     text-align: center;
     color: black;
 }
 
-nav {
-
+header {
+    background-color: ;
 }
 
-h1 a, a:hover, a:focus, a:active {
+nav a {
+    width: 100%;
+    padding-left: 20pt;
+    padding-right: 20pt;
+}
+
+p, a {
+    font-family: 'Open Sans Condensed', sans-serif;
+} 
+
+a:hover {
+    color: grey;
+}
+
+h1 a, a:focus, a:active {
     text-decoration: none;
     color: inherit;
 }
 
-#MainTitleSubtitle {
-    font-size: 15pt;
-    text-align: center;
-    color: black;
+nav a, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
-
